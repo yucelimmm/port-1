@@ -9,7 +9,7 @@ def head():
 def number():
     num1=25
     num2= 42
-    return render_template("body.html", val1=num1, val2=num2, sum=num1 +num2)
+    return render_template("body.html", num1=num1, num2=num2, sum=num1 +num2)
 
 
 
